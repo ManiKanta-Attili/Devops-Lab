@@ -22,3 +22,9 @@ Gateway
 DNS
 
 Router DNS
+
+### Name Resolution
+
+All virtual machines use `/etc/hosts` for local hostname resolution.
+
+DNS is provided by the home router for external domains.
