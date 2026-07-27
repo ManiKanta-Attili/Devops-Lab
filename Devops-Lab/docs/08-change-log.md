@@ -1,11 +1,22 @@
 # Change Log
 
-Version 0.1
+## Version 0.1
 
-Created Golden Image
+- Created Golden Image
+- Installed utilities
+- Verified repositories
+- Configured hostname
 
-Installed utilities
+## Version 0.2
 
-Verified repositories
+- Created Golden Image server (used for cloning).
 
-Configured hostname
+## Version 0.3
+
+- Decided that all future servers will be provisioned using Full Clones.
+- Standardised VM naming convention:
+  - rhel10-template
+  - rhel10-jenkins
+  - rhel10-k8s-master
+  - rhel10-k8s-worker
+  - rhel10-sonar
